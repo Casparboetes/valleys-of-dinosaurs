@@ -30,7 +30,14 @@
       <p>Russia, Europe</p>
 
     <hr>
+def create
+    @dinosaur = Dinosaur.new(dinosaur_params)
 
+      if @dinosaur.save
+        redirect_to @dinosaur
+      else
+        render 'new'
+      end
     <h1>Dinosaurs</h1>
       <% @dinosaurs.each do |dinosaur| %>
           <p><%= link_to dinosaur.name, dinosaur_path(dinosaur.id) %></p>
@@ -54,14 +61,11 @@
 
             <p>
             <iframe width="854" height="480" src="https://www.youtube.com/embed/-_xkraSZxwQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
   <hr>
 
-              <ul>
-                <li>Carrion</li>
-                <li>Planta</li>
-              </ul>
-  </article>
-    </main>
+    </article>
+  </main>
 <hr>
     <footer>
       <p> ©2017 Valleys of Dinos</p>
