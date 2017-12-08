@@ -1,9 +1,73 @@
-<h1>Dinosaurs</h1>
+<!DOCTYPE html>
+<html>
 
-<% @dinosaurs.each do |dinosaur| %>
-    <p><%= link_to dinosaur.name, dinosaur_path(dinosaur.id) %></p>
-<% end %>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css"><link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+    <title>Valleys of Dinosaurs</title>
+  </head>
 
+  <body>
+    <section class="banner">
+      <img src="../Valleys of Dinos/images/valleys-of-dinosaurs-logo.svg" alt="NEEDS BANNER BUT NEED TO ADD CSS Valleys of Dinosaurs" />
+        <h1>Discover the Dinosaurs Era</h1>
+          <h3>Fun Facts Going Back in Time</h3>
+    </section>
+
+    <hr>
+
+    <header>
+      <h1>Make Your own Dinosaur!</h1>
+      <%= link_to "[Make Dinosaur]", new_dinosaur_path %>
+
+    </header>
+
+    <hr>
+
+    <main>
+      <h2 >Valley of Geysers</h1>
+      <p>Russia, Europe</p>
+
+    <hr>
+
+    <h1>Dinosaurs</h1>
+      <% @dinosaurs.each do |dinosaur| %>
+          <p><%= link_to dinosaur.name, dinosaur_path(dinosaur.id) %></p>
+      <% end %>
+
+    <article>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abrictosaurus_dinosaur.png/320px-Abrictosaurus_dinosaur.png" alt="Abrictosaurus" />
+          <h2>Abrictosaurus</h2>
+            <p>Abrictosaurus was a small dinosaur in the <strong>early Jurassic period</strong>,
+              between about 199 and 196 million years ago. Abrictosaurus was quite small.
+              It was about 1.2 meters long, and weighed only <del>45 kilograms</del> 60 kilograms.
+
+          <h3>Type of food it prefers</h3>
+            <ul>
+              <li>Carrion</li>
+              <li>Planta</li>
+              </ul>
+          <h3>Movie Time!</h3>
+               This cute little fellow might have looked a little like you will see in this youtube movie.</p>
+            </p>
+
+            <p>
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/-_xkraSZxwQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  <hr>
+
+              <ul>
+                <li>Carrion</li>
+                <li>Planta</li>
+              </ul>
+  </article>
+    </main>
 <hr>
+    <footer>
+      <p> ©2017 Valleys of Dinos</p>
+    </footer>
 
-<%= link_to "[New Dinosaurs]", new_dinosaur_path %>
+  </body>
+
+</html>
