@@ -1,26 +1,27 @@
-# README
+# Valley-of-the-Dinosaurs
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sandbox Project, CRUD tries with Dino's. My first Rails project.
 
-Things you may want to cover:
+- Clone repo
+- Bundle install
+- Rails s
+- Go to http://localhost:3000/ or check the images!
 
-* Ruby version
 
-* System dependencies
+### Images
 
-* Configuration
+> Landing Page.
 
-* Database creation
+![dino1](https://user-images.githubusercontent.com/34174855/38362121-07fa60d2-38d0-11e8-9b95-619ae2bb9fa4.png)
 
-* Database initialization
+>Landing Page
 
-* How to run the test suite
+![dino2](https://user-images.githubusercontent.com/34174855/38362138-102e1762-38d0-11e8-9bdf-9f1515766c07.png)
 
-* Services (job queues, cache servers, search engines, etc.)
+>Create Dino
 
-* Deployment instructions
+![dino3](https://user-images.githubusercontent.com/34174855/38362150-12c8cfd0-38d0-11e8-99b2-3983df210bbe.png)
 
-* ...
-# valleys-of-dinosaurs
-# valleys-of-dinosaurs
+>Edit & Delete Dino
+
+![dino4](https://user-images.githubusercontent.com/34174855/38362152-14ae2552-38d0-11e8-9643-94c4211ba5e8.png)
