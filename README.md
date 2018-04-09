@@ -5,7 +5,7 @@ Sandbox Project, CRUD tries with Dino's. My first Rails project.
 - Clone repo
 - Bundle install
 - Rails s
-- Go to http://localhost:3000/ or check the images!
+- Go to http://localhost:3000 or check the images!
 
 
 ### Images
